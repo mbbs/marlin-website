@@ -1,0 +1,6 @@
+{
+  "name": "marlin",
+  "dependencies": {
+    "bootstrap": "^4.5.0"
+  }
+}
