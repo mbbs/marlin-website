@@ -53,29 +53,40 @@ a {
       margin-top: 1rem;
       margin-left: 0; } }
 
+.heading-title {
+  color: #ffffff;
+  margin: 0;
+  text-align: left;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #155799;
+  /*background-image: #155799;*/
+          /*linear-gradient(120deg, #155799, #159957); */
+}
+
 
 .page-title {
   color: #fff;
   text-align: left;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  margin: 12px;
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 1rem 2rem;
+  } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 1rem 2rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 1rem 2rem; } }
 
 .project-name {
   margin-top: 0;
